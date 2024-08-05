@@ -1,0 +1,14 @@
+Adith Aulia Rahman
+
+Encrypt data with RSA 2048 and encrypt key with AES 256
+Soon can be used via API using gin 
+
+How to Debug and Run:
+to generate key
+go run main.go -genkeys
+
+to encrypt
+go run main.go -e -plaintext="plain_text.txt" -encrypted="encrypted_text.txt"
+
+to decrypt
+go run main.go -d -encrypted="encrypted_text.txt" -decrypted="decrypted_text.txt"
